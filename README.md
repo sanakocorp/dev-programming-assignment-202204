@@ -1,4 +1,4 @@
-# Programming assignment for software developer positions at Sanako Oy.
+# Programming assignment for software developer positions at Sanako Oy
 
 > Application period: 2022-04-06 to 2022-05-06.
 
@@ -14,7 +14,13 @@ You may use one of the following programming languages to implement your solutio
 
 Your solution may only use libraries and functionality from the language standard library. External packages cannot be used at this time. However, you may use other libraries for utility functions such as testing or visualization.
 
+This assignment should be completed in approximately 1-2 hours. You may spent more or less time on this assignment.
+
 We politely ask you not to publish your solution on the Internet or to share with anyone during the application period.
+
+This assignment might not fully represent the work you would do at Sanako. 
+
+We also have another web development related task, that you'll need to do. The details for the second assignment are sent to you, if you are selected to proceed after the first interview. The second assignment should be completed 3-6 hours.
 
 ## Submission
 
