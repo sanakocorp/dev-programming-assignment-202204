@@ -92,8 +92,8 @@ Here is a snippet from the example input ([`graph-0.json`](./graph-0.json)):
 
 ### Output
 
-Our implementation may produce the solution output either to
-- a .json file
+Your implementation may produce the solution output either to
+- a .json file, or
 - stardard output (stdout)
 
 Example solution output (JSON):
