@@ -1,0 +1,1236 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "x": 1,
+      "y": 0,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 2,
+          "cost": 54.8488
+        },
+        {
+          "node_id": 8,
+          "cost": 28.4144
+        },
+        {
+          "node_id": 10,
+          "cost": 19.4081
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "x": 2,
+      "y": 0,
+      "kind": "datacenter",
+      "edges": [
+        {
+          "node_id": 1,
+          "cost": 54.8488
+        },
+        {
+          "node_id": 10,
+          "cost": 19.623
+        },
+        {
+          "node_id": 11,
+          "cost": 43.3526
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "x": 5,
+      "y": 0,
+      "kind": "datacenter",
+      "edges": [
+        {
+          "node_id": 6,
+          "cost": 41.1088
+        },
+        {
+          "node_id": 12,
+          "cost": 41.5924
+        },
+        {
+          "node_id": 14,
+          "cost": 13.5297
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "x": 6,
+      "y": 0,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 5,
+          "cost": 41.1088
+        },
+        {
+          "node_id": 14,
+          "cost": 16.392
+        },
+        {
+          "node_id": 15,
+          "cost": 43.9159
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "x": 0,
+      "y": 1,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 1,
+          "cost": 28.4144
+        },
+        {
+          "node_id": 16,
+          "cost": 46.986
+        },
+        {
+          "node_id": 17,
+          "cost": 33.7913
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "x": 2,
+      "y": 1,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 1,
+          "cost": 19.4081
+        },
+        {
+          "node_id": 2,
+          "cost": 19.623
+        },
+        {
+          "node_id": 11,
+          "cost": 20.3266
+        },
+        {
+          "node_id": 18,
+          "cost": 14.6501
+        },
+        {
+          "node_id": 17,
+          "cost": 12.3125
+        },
+        {
+          "node_id": 19,
+          "cost": 37.9902
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "x": 3,
+      "y": 1,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 2,
+          "cost": 43.3526
+        },
+        {
+          "node_id": 10,
+          "cost": 20.3266
+        },
+        {
+          "node_id": 12,
+          "cost": 48.1919
+        },
+        {
+          "node_id": 19,
+          "cost": 19.0063
+        },
+        {
+          "node_id": 18,
+          "cost": 37.0393
+        },
+        {
+          "node_id": 20,
+          "cost": 20.2006
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "x": 4,
+      "y": 1,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 5,
+          "cost": 41.5924
+        },
+        {
+          "node_id": 11,
+          "cost": 48.1919
+        },
+        {
+          "node_id": 20,
+          "cost": 16.5658
+        },
+        {
+          "node_id": 19,
+          "cost": 10.8433
+        },
+        {
+          "node_id": 21,
+          "cost": 20.879
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "x": 6,
+      "y": 1,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 5,
+          "cost": 13.5297
+        },
+        {
+          "node_id": 6,
+          "cost": 16.392
+        },
+        {
+          "node_id": 15,
+          "cost": 24.1416
+        },
+        {
+          "node_id": 21,
+          "cost": 22.9416
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "x": 7,
+      "y": 1,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 6,
+          "cost": 43.9159
+        },
+        {
+          "node_id": 14,
+          "cost": 24.1416
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "x": 0,
+      "y": 2,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 8,
+          "cost": 46.986
+        },
+        {
+          "node_id": 17,
+          "cost": 24.0247
+        },
+        {
+          "node_id": 24,
+          "cost": 13.8395
+        },
+        {
+          "node_id": 25,
+          "cost": 8.6367
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "x": 1,
+      "y": 2,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 8,
+          "cost": 33.7913
+        },
+        {
+          "node_id": 10,
+          "cost": 12.3125
+        },
+        {
+          "node_id": 16,
+          "cost": 24.0247
+        },
+        {
+          "node_id": 18,
+          "cost": 37.9392
+        },
+        {
+          "node_id": 25,
+          "cost": 39.9427
+        },
+        {
+          "node_id": 24,
+          "cost": 34.2555
+        },
+        {
+          "node_id": 26,
+          "cost": 33.2667
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "x": 2,
+      "y": 2,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 10,
+          "cost": 14.6501
+        },
+        {
+          "node_id": 11,
+          "cost": 37.0393
+        },
+        {
+          "node_id": 17,
+          "cost": 37.9392
+        },
+        {
+          "node_id": 19,
+          "cost": 49.502
+        },
+        {
+          "node_id": 26,
+          "cost": 37.0582
+        },
+        {
+          "node_id": 25,
+          "cost": 37.2851
+        },
+        {
+          "node_id": 27,
+          "cost": 12.4428
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "x": 3,
+      "y": 2,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 10,
+          "cost": 37.9902
+        },
+        {
+          "node_id": 11,
+          "cost": 19.0063
+        },
+        {
+          "node_id": 12,
+          "cost": 10.8433
+        },
+        {
+          "node_id": 18,
+          "cost": 49.502
+        },
+        {
+          "node_id": 20,
+          "cost": 38.2422
+        },
+        {
+          "node_id": 27,
+          "cost": 25.4234
+        },
+        {
+          "node_id": 26,
+          "cost": 44.5773
+        },
+        {
+          "node_id": 28,
+          "cost": 36.079
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "x": 4,
+      "y": 2,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 11,
+          "cost": 20.2006
+        },
+        {
+          "node_id": 12,
+          "cost": 16.5658
+        },
+        {
+          "node_id": 19,
+          "cost": 38.2422
+        },
+        {
+          "node_id": 21,
+          "cost": 43.472
+        },
+        {
+          "node_id": 28,
+          "cost": 56.2937
+        },
+        {
+          "node_id": 27,
+          "cost": 24.6887
+        },
+        {
+          "node_id": 29,
+          "cost": 23.2435
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "x": 5,
+      "y": 2,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 12,
+          "cost": 20.879
+        },
+        {
+          "node_id": 14,
+          "cost": 22.9416
+        },
+        {
+          "node_id": 20,
+          "cost": 43.472
+        },
+        {
+          "node_id": 29,
+          "cost": 25.884
+        },
+        {
+          "node_id": 28,
+          "cost": 38.5713
+        },
+        {
+          "node_id": 30,
+          "cost": 7.5605
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "x": 0,
+      "y": 3,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 16,
+          "cost": 13.8395
+        },
+        {
+          "node_id": 17,
+          "cost": 34.2555
+        },
+        {
+          "node_id": 25,
+          "cost": 16.4274
+        },
+        {
+          "node_id": 33,
+          "cost": 28.456
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "x": 1,
+      "y": 3,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 16,
+          "cost": 8.6367
+        },
+        {
+          "node_id": 17,
+          "cost": 39.9427
+        },
+        {
+          "node_id": 18,
+          "cost": 37.2851
+        },
+        {
+          "node_id": 24,
+          "cost": 16.4274
+        },
+        {
+          "node_id": 26,
+          "cost": 29.4488
+        },
+        {
+          "node_id": 33,
+          "cost": 32.1689
+        },
+        {
+          "node_id": 34,
+          "cost": 15.562
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "x": 2,
+      "y": 3,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 17,
+          "cost": 33.2667
+        },
+        {
+          "node_id": 18,
+          "cost": 37.0582
+        },
+        {
+          "node_id": 19,
+          "cost": 44.5773
+        },
+        {
+          "node_id": 25,
+          "cost": 29.4488
+        },
+        {
+          "node_id": 27,
+          "cost": 46.1481
+        },
+        {
+          "node_id": 34,
+          "cost": 38.6967
+        },
+        {
+          "node_id": 33,
+          "cost": 38.8832
+        },
+        {
+          "node_id": 35,
+          "cost": 24.8061
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "x": 3,
+      "y": 3,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 18,
+          "cost": 12.4428
+        },
+        {
+          "node_id": 19,
+          "cost": 25.4234
+        },
+        {
+          "node_id": 20,
+          "cost": 24.6887
+        },
+        {
+          "node_id": 26,
+          "cost": 46.1481
+        },
+        {
+          "node_id": 28,
+          "cost": 49.6428
+        },
+        {
+          "node_id": 35,
+          "cost": 43.6541
+        },
+        {
+          "node_id": 34,
+          "cost": 37.6859
+        },
+        {
+          "node_id": 36,
+          "cost": 14.5166
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "x": 4,
+      "y": 3,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 19,
+          "cost": 36.079
+        },
+        {
+          "node_id": 20,
+          "cost": 56.2937
+        },
+        {
+          "node_id": 21,
+          "cost": 38.5713
+        },
+        {
+          "node_id": 27,
+          "cost": 49.6428
+        },
+        {
+          "node_id": 29,
+          "cost": 20.6518
+        },
+        {
+          "node_id": 36,
+          "cost": 164980.5394
+        },
+        {
+          "node_id": 35,
+          "cost": 71.041
+        },
+        {
+          "node_id": 37,
+          "cost": 49.4259
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "x": 5,
+      "y": 3,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 20,
+          "cost": 23.2435
+        },
+        {
+          "node_id": 21,
+          "cost": 25.884
+        },
+        {
+          "node_id": 28,
+          "cost": 20.6518
+        },
+        {
+          "node_id": 30,
+          "cost": 11.515
+        },
+        {
+          "node_id": 37,
+          "cost": 29.995
+        },
+        {
+          "node_id": 36,
+          "cost": 37.4563
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "x": 6,
+      "y": 3,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 21,
+          "cost": 7.5605
+        },
+        {
+          "node_id": 29,
+          "cost": 11.515
+        },
+        {
+          "node_id": 37,
+          "cost": 38.1995
+        },
+        {
+          "node_id": 39,
+          "cost": 48.4161
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "x": 1,
+      "y": 4,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 24,
+          "cost": 28.456
+        },
+        {
+          "node_id": 25,
+          "cost": 32.1689
+        },
+        {
+          "node_id": 26,
+          "cost": 38.8832
+        },
+        {
+          "node_id": 34,
+          "cost": 23.7466
+        },
+        {
+          "node_id": 42,
+          "cost": 23.8902
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "x": 2,
+      "y": 4,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 25,
+          "cost": 15.562
+        },
+        {
+          "node_id": 26,
+          "cost": 38.6967
+        },
+        {
+          "node_id": 27,
+          "cost": 37.6859
+        },
+        {
+          "node_id": 33,
+          "cost": 23.7466
+        },
+        {
+          "node_id": 35,
+          "cost": 74.6981
+        },
+        {
+          "node_id": 42,
+          "cost": 50.1426
+        },
+        {
+          "node_id": 43,
+          "cost": 23.3322
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "x": 3,
+      "y": 4,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 26,
+          "cost": 24.8061
+        },
+        {
+          "node_id": 27,
+          "cost": 43.6541
+        },
+        {
+          "node_id": 28,
+          "cost": 71.041
+        },
+        {
+          "node_id": 34,
+          "cost": 74.6981
+        },
+        {
+          "node_id": 36,
+          "cost": 250669.6763
+        },
+        {
+          "node_id": 43,
+          "cost": 27.7926
+        },
+        {
+          "node_id": 42,
+          "cost": 41.7567
+        },
+        {
+          "node_id": 44,
+          "cost": 69.3298
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "x": 4,
+      "y": 4,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 27,
+          "cost": 14.5166
+        },
+        {
+          "node_id": 28,
+          "cost": 164980.5394
+        },
+        {
+          "node_id": 29,
+          "cost": 37.4563
+        },
+        {
+          "node_id": 35,
+          "cost": 250669.6763
+        },
+        {
+          "node_id": 37,
+          "cost": 34.4034
+        },
+        {
+          "node_id": 44,
+          "cost": 70.0127
+        },
+        {
+          "node_id": 43,
+          "cost": 292172.339
+        },
+        {
+          "node_id": 45,
+          "cost": 255782.9068
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "x": 5,
+      "y": 4,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 28,
+          "cost": 49.4259
+        },
+        {
+          "node_id": 29,
+          "cost": 29.995
+        },
+        {
+          "node_id": 30,
+          "cost": 38.1995
+        },
+        {
+          "node_id": 36,
+          "cost": 34.4034
+        },
+        {
+          "node_id": 45,
+          "cost": 23.0992
+        },
+        {
+          "node_id": 44,
+          "cost": 36.6288
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "x": 7,
+      "y": 4,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 30,
+          "cost": 48.4161
+        },
+        {
+          "node_id": 47,
+          "cost": 18.8551
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "x": 2,
+      "y": 5,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 33,
+          "cost": 23.8902
+        },
+        {
+          "node_id": 34,
+          "cost": 50.1426
+        },
+        {
+          "node_id": 35,
+          "cost": 41.7567
+        },
+        {
+          "node_id": 43,
+          "cost": 37.584
+        },
+        {
+          "node_id": 50,
+          "cost": 32.7244
+        },
+        {
+          "node_id": 49,
+          "cost": 16.7686
+        },
+        {
+          "node_id": 51,
+          "cost": 28.8944
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "x": 3,
+      "y": 5,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 34,
+          "cost": 23.3322
+        },
+        {
+          "node_id": 35,
+          "cost": 27.7926
+        },
+        {
+          "node_id": 36,
+          "cost": 292172.339
+        },
+        {
+          "node_id": 42,
+          "cost": 37.584
+        },
+        {
+          "node_id": 44,
+          "cost": 45.2428
+        },
+        {
+          "node_id": 51,
+          "cost": 30.2191
+        },
+        {
+          "node_id": 50,
+          "cost": 42.6746
+        },
+        {
+          "node_id": 52,
+          "cost": 23.6568
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "x": 4,
+      "y": 5,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 35,
+          "cost": 69.3298
+        },
+        {
+          "node_id": 36,
+          "cost": 70.0127
+        },
+        {
+          "node_id": 37,
+          "cost": 36.6288
+        },
+        {
+          "node_id": 43,
+          "cost": 45.2428
+        },
+        {
+          "node_id": 45,
+          "cost": 35.427
+        },
+        {
+          "node_id": 52,
+          "cost": 27.1275
+        },
+        {
+          "node_id": 51,
+          "cost": 41.9151
+        },
+        {
+          "node_id": 53,
+          "cost": 45.3787
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "x": 5,
+      "y": 5,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 36,
+          "cost": 255782.9068
+        },
+        {
+          "node_id": 37,
+          "cost": 23.0992
+        },
+        {
+          "node_id": 44,
+          "cost": 35.427
+        },
+        {
+          "node_id": 53,
+          "cost": 41.5206
+        },
+        {
+          "node_id": 52,
+          "cost": 55.6663
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "x": 7,
+      "y": 5,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 39,
+          "cost": 18.8551
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "x": 1,
+      "y": 6,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 42,
+          "cost": 16.7686
+        },
+        {
+          "node_id": 50,
+          "cost": 51.3516
+        },
+        {
+          "node_id": 57,
+          "cost": 47.4442
+        },
+        {
+          "node_id": 58,
+          "cost": 38.1822
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "x": 2,
+      "y": 6,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 42,
+          "cost": 32.7244
+        },
+        {
+          "node_id": 43,
+          "cost": 42.6746
+        },
+        {
+          "node_id": 49,
+          "cost": 51.3516
+        },
+        {
+          "node_id": 51,
+          "cost": 30.1365
+        },
+        {
+          "node_id": 58,
+          "cost": 25.216
+        },
+        {
+          "node_id": 57,
+          "cost": 24.4298
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "x": 3,
+      "y": 6,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 42,
+          "cost": 28.8944
+        },
+        {
+          "node_id": 43,
+          "cost": 30.2191
+        },
+        {
+          "node_id": 44,
+          "cost": 41.9151
+        },
+        {
+          "node_id": 50,
+          "cost": 30.1365
+        },
+        {
+          "node_id": 52,
+          "cost": 19.9767
+        },
+        {
+          "node_id": 58,
+          "cost": 26.2595
+        },
+        {
+          "node_id": 60,
+          "cost": 39.3325
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "x": 4,
+      "y": 6,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 43,
+          "cost": 23.6568
+        },
+        {
+          "node_id": 44,
+          "cost": 27.1275
+        },
+        {
+          "node_id": 45,
+          "cost": 55.6663
+        },
+        {
+          "node_id": 51,
+          "cost": 19.9767
+        },
+        {
+          "node_id": 53,
+          "cost": 24.9879
+        },
+        {
+          "node_id": 60,
+          "cost": 32.9054
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "x": 5,
+      "y": 6,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 44,
+          "cost": 45.3787
+        },
+        {
+          "node_id": 45,
+          "cost": 41.5206
+        },
+        {
+          "node_id": 52,
+          "cost": 24.9879
+        },
+        {
+          "node_id": 60,
+          "cost": 46.8928
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "x": 1,
+      "y": 7,
+      "kind": "water_pump",
+      "edges": [
+        {
+          "node_id": 49,
+          "cost": 47.4442
+        },
+        {
+          "node_id": 50,
+          "cost": 24.4298
+        },
+        {
+          "node_id": 58,
+          "cost": 127.5146
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "x": 2,
+      "y": 7,
+      "kind": "waypoint",
+      "edges": [
+        {
+          "node_id": 49,
+          "cost": 38.1822
+        },
+        {
+          "node_id": 50,
+          "cost": 25.216
+        },
+        {
+          "node_id": 51,
+          "cost": 26.2595
+        },
+        {
+          "node_id": 57,
+          "cost": 127.5146
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "x": 4,
+      "y": 7,
+      "kind": "water_pump",
+      "edges": [
+        {
+          "node_id": 51,
+          "cost": 39.3325
+        },
+        {
+          "node_id": 52,
+          "cost": 32.9054
+        },
+        {
+          "node_id": 53,
+          "cost": 46.8928
+        }
+      ]
+    }
+  ]
+}
